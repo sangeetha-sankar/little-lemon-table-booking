@@ -1,0 +1,25 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__name--active {
+  color: rgba(164, 143, 111);
+}
+
+.menu__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-width: 100%;
+  max-width: 800px;
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu__item {
+  margin: 0 2%;
+}
