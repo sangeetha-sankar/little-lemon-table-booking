@@ -1,0 +1,33 @@
+.nav__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 2;
+  padding: 15% 0 5% 0;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.nav__link:hover {
+  color: rgb(189, 174, 151);
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__items {
+    flex-direction: row;
+    padding: 0% 5%;
+  }
+  .nav__link {
+    font-size: 1em;
+    color: rgba(164, 143, 111);
+  }
+}
