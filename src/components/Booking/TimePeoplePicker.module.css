@@ -1,0 +1,22 @@
+.picker {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  text-align: center;
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .picker {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+}
