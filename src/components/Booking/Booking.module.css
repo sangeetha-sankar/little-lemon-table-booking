@@ -1,0 +1,55 @@
+.btn {
+  width: 100%;
+  margin: 5% 0 10% 0;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.book__peopleTime-container {
+  width: 70%;
+  max-width: 400px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.heading {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin: 5% 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .book {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    max-width: 800px;
+  }
+  .book__peopleTime-container {
+    height: 100%;
+    width: auto;
+
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0.5;
+  }
+  .book__peopleTime {
+    width: 100%;
+  }
+  .btn {
+    margin: 5% 0;
+  }
+  .heading {
+    margin: 5% 0;
+  }
+}
